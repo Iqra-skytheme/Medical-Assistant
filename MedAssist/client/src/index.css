@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Sticky Dashboard Layout Rules */
+html:has(aside), 
+body:has(aside) {
+  overflow: hidden !important;
+  height: 100vh !important;
+}
+
+body:has(aside) #root,
+body:has(aside) #root > div {
+  height: 100vh !important;
+  overflow: hidden !important;
+}
+
+/* Ensure the flex container doesn't overflow */
+body:has(aside) .flex:has(aside) {
+  height: 100vh !important;
+  overflow: hidden !important;
+  width: 100% !important;
+}
+
+/* Sidebar is fixed 100vh height */
+body:has(aside) aside {
+  height: 100vh !important;
+  position: sticky !important;
+  top: 0 !important;
+  flex-shrink: 0 !important;
+  overflow-y: auto !important;
+}
+
+/* Only the main dashboard content panel is scrollable */
+body:has(aside) main {
+  height: 100vh !important;
+  overflow-y: auto !important;
+  flex-grow: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* Global Dark Mode Input/Textarea Placeholder Overrides */
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+  opacity: 1 !important;
+}
+
+@keyframes marquee-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes marquee-scroll-reverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 30s linear infinite;
+}
+
+.animate-marquee-reverse {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll-reverse 30s linear infinite;
+}
