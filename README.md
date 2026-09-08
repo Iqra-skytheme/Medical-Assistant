@@ -93,6 +93,31 @@ The backend sends the required response back to the React frontend, where the re
 
 ---
 
+## 🖥️ Screenshots
+
+### 🏠 Homepage
+
+<img width="948" height="413" alt="image" src="https://github.com/user-attachments/assets/14da2766-3298-4445-9371-91e88c0c7260" />
+
+
+### 🩺 Medical Assistant
+
+<img width="947" height="414" alt="image" src="https://github.com/user-attachments/assets/4fc0d6e1-f421-4207-a107-c138caaf20d5" />
+
+
+### 📊 Patient Interface
+
+<img width="959" height="415" alt="image" src="https://github.com/user-attachments/assets/4d22d59a-8d66-4ced-931b-3e93a24c4375" />
+
+
+### 📱 Doctor Interface
+
+<img width="959" height="407" alt="image" src="https://github.com/user-attachments/assets/d063ff92-472e-4ccb-b503-3ff368ece7de" />
+
+
+> Replace the screenshot paths with the actual screenshots from your project.
+
+---
 
 ## 🚀 Installation & Setup
 
@@ -223,6 +248,19 @@ The project was divided into frontend and backend responsibilities, with APIs se
 
 ---
 
+## 🔮 Future Improvements
+
+Possible future enhancements for MedAssist include:
+
+* 🤖 Integration of more advanced AI-powered medical assistance
+* 👤 User authentication and personalized accounts
+* 📋 Personal health record management
+* 🔐 Additional security and data-protection measures
+
+These are **future improvements** and are not necessarily part of the current version.
+
+---
+
 ## 👩‍💻 About the Developer
 
 **Iqra** is a Software Engineering student and aspiring software developer interested in building practical applications and exploring modern web technologies.
@@ -232,7 +270,9 @@ MedAssist was developed as a full-stack project to gain hands-on experience with
 ### Connect With Me
 
 * **GitHub:** [Iqra-skytheme](https://github.com/Iqra-skytheme)
-* **LinkedIn:** https://www.linkedin.com/in/iqra-hussain-a3b629383
+* **LinkedIn:** https://www.linkedin.com/in/iqra-hussain
+
+---
 
 ## 📄 License
 
